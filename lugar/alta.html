@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../stilo.css">
+    </head>
+    <body>
+        <h1>ALTA</h1>
+        <p><a href="gestion.php">Gestión</a><a href="../index.html">Inicio</a></p>
+        <form action="procesoJesuita.php" method="post">
+            <p>
+                <label for="ip">Ip del equipo: </label>
+                <input type="text" name="ip">
+            </p>
+            <p>
+                <label for="ciudad">Nombre del lugar: </label>
+                <input type="text" name="ciudad">
+            </p>
+            <p>
+                <label for="descripcion">Descripción del lugar: </label>
+                <input type="text" name="descripcion">
+            </p>
+            <input type="hidden" name="tipo" value="1">
+            <input type="submit">
+        </form>
+    </body>
+</html>
